@@ -64,7 +64,7 @@ margin-top: 1em;
 
 <div id="jumpScare">
 < img src="tian.jpeg" alt="惊吓图" />
-<p>  No Way！</p >
+<p>No Way！</p >
 </div>
 
 <audio id="kissSound" src="kiss.mp3"></audio>
@@ -86,14 +86,7 @@ document.body.style.overflow = "hidden";
 
 // 屏幕震动效果
 let count = 0;
-const interval = setInterval(() => {
-window.scrollBy(5, 5);
-setTimeout(() => window.scrollBy(-5, -5), 50);
-count++;
-if (count > 10) clearInterval(interval);
-}, 100);
 };
 </script>
 </body>
 </html>
-
